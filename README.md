@@ -20,9 +20,9 @@ cryptography ($ pip install cryptography)
 Put encrypt in your project and use it as a module
 
 ```python
-import encrypt
-encrypt.encrypt(your_file, password)
-encrypt.decrypt(encrypted_file, password)
+>>> import encrypt
+>>> encrypt.encrypt(your_file, password)
+>>> encrypt.decrypt(encrypted_file, password)
 ```
 
 ## License
